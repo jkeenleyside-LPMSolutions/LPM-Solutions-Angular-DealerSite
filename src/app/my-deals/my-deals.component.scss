@@ -1,0 +1,28 @@
+
+mat-drawer{
+    background: darkgray;
+    width: 10%;
+}
+
+
+.myDealsContent{
+  display: flex;
+
+  .leftContent{
+    width: 10%;
+  }
+  .rightContent{
+    padding: 2%;
+    width: 100%;
+    height: 200px;
+  }
+  .quoteInputs{
+    margin: 0 2%;
+    width: 180px;
+    height: 300px;
+  }
+
+  .submitQuoteBtn{
+    float: right;
+  }
+}

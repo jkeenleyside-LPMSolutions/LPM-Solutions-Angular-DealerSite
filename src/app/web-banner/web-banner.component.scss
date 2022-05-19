@@ -1,0 +1,25 @@
+
+:host{
+  .websiteBannerContainer{
+    height: 100%;
+  }
+  .websiteBannerContent{
+    background-image: url(https://www.lpm-solutions.com/wp-content/uploads/2019/11/GOPR0523-scaled.jpg);
+    background-position: bottom;
+
+    height: 100%;
+    display: flex;
+    h1{
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      font-size: 2.5rem;
+      color: white;
+      width: 0 auto;
+      margin: 1%;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }
+  }
+}
+

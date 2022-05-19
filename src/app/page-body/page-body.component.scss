@@ -1,0 +1,53 @@
+:host{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  mat-drawer-container {
+      flex: 1;
+      mat-drawer-content {
+          background: lightgray;
+      }
+  }
+
+  .sideNavDrawer{
+      background: darkgray;
+      width: 10%;
+  }
+
+  .mat-toolbar-single-row{
+      background: rgb(87, 86, 86);
+  }
+
+  .mat-divider-vertical{
+    height: 100%;
+    width: 0px !important;
+    position: inherit !important;
+    border: .5px solid black;
+    margin-right: .5%;
+    margin-left: .5%;
+  }
+
+  .sideNavList.list-horizontal {
+    padding: 0;
+    float: right;
+    .mat-list-item {
+      display: inline-block;
+    }
+  }
+
+  .dealOptionSection{
+    width: 8%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .buttonSpot{
+    width: 2%;
+    text-align: center;
+    padding-right: .5%;
+    overflow: hidden;
+  }
+}
+
